@@ -24,7 +24,7 @@ body {
   
   /* Add a hover effect to the nav bar links */
   nav a:hover {
-    background-color: #666;
+    background-color: #015c3b;
   }
   
   /* Add some margin and padding to the main content area */
@@ -35,7 +35,7 @@ body {
   
   /* Add a border to the main content area */
   main {
-    border: 1px solid #333;
+    border: 1px solid #015c3b;
   }
   
   /* Style the h1 and h2 headings */
@@ -62,6 +62,6 @@ body {
   
   /* Add a border and padding to the images */
   img {
-    border: 1px solid #333;
+    border: 1px solid #013220;
     padding: 0.25em;
   }

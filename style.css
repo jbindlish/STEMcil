@@ -1,67 +1,73 @@
-/* Apply a sans-serif font to the entire website */
+/* Use a modern sans-serif font */
 body {
-    font-family: sans-serif;
-  }
-  
-  /* Center the header and give it a background color */
-  header {
-    text-align: center;
-    background-color: #013220;
-    color: white;
-    padding: 1em;
-  }
-  
-  /* Make the links in the nav bar look like buttons */
-  nav a {
-    display: inline-block;
-    padding: 0.5em 1em;
-    background-color: #013220;
-    color: white;
-    text-decoration: none;
-    border-radius: 0.25em;
-    margin-right: 0.5em;
-  }
-  
-  /* Add a hover effect to the nav bar links */
-  nav a:hover {
-    background-color: #015c3b;
-  }
-  
-  /* Add some margin and padding to the main content area */
-  main {
-    margin: 1em;
-    padding: 1em;
-  }
-  
-  /* Add a border to the main content area */
-  main {
-    border: 1px solid #015c3b;
-  }
-  
-  /* Style the h1 and h2 headings */
-  h1 {
-    font-size: 2em;
-    margin-top: 0;
-  }
-  
-  h2 {
-    font-size: 1.5em;
-  }
-  
-  /* Style the unordered list */
-  ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  /* Style the list items */
-  li {
-    margin-bottom: 0.5em;
-  }
-  
-  /* Add a border and padding to the images */
-  img {
-    border: 1px solid #013220;
-    padding: 0.25em;
-  }
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Center the header and give it a modern background color */
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2b2d42;
+  color: white;
+  padding: 1em;
+}
+
+/* Make the links in the nav bar look like modern buttons */
+nav a {
+  display: inline-block;
+  padding: 0.75em 1.5em;
+  background-color: #2b2d42;
+  color: white;
+  text-decoration: none;
+  border-radius: 0.25em;
+  margin-right: 0.5em;
+  transition: background-color 0.2s ease-out;
+}
+
+/* Add a hover effect to the nav bar links */
+nav a:hover {
+  background-color: #8d99ae;
+}
+
+/* Add some margin and padding to the main content area */
+main {
+  margin: 1em;
+  padding: 1em;
+}
+
+/* Add a modern border to the main content area */
+main {
+  border: 2px solid #8d99ae;
+  border-radius: 0.25em;
+}
+
+/* Style the h1 and h2 headings */
+h1 {
+  font-size: 3em;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 2em;
+  margin-top: 0;
+}
+
+/* Style the unordered list */
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Style the list items */
+li {
+  margin-bottom: 0.5em;
+}
+
+/* Add a modern border and padding to the images */
+img {
+  border: 2px solid #8d99ae;
+  padding: 0.5em;
+  border-radius: 0.25em;
+}
